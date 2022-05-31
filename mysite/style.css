@@ -1,0 +1,55 @@
+.category-wrap {
+  padding: 150px;
+  background: rgba(238, 233, 227, 0.1);
+  width: 250px;
+  box-shadow: 2px 2px 8px rgba(0, 0, 0, 0.1);
+  font-family: Bahnschrift;
+}
+.category-wrap h3 {
+  font-size: 32px;
+  color: rgba(255, 255, 255, 0.6);
+  margin: 0 0 10px;
+  padding: 0 5px;
+  position: relative;
+}
+.category-wrap h3:after {
+  content: "";
+  width: 6px;
+  height: 6px;
+  background: #1a4b30;
+  position: static;
+  right: 5px;
+  bottom: 2px;
+  box-shadow: -8px -8px #1a4b30, 0 -8px #1a4b30, -8px 0 #1a4b30;
+}
+.category-wrap ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  border-top: 1px solid rgba(0, 0, 0, 0.3);
+}
+.category-wrap li {margin: 12px 0 0 0px;}
+.category-wrap a {
+  text-decoration: none;
+  display: block;
+  font-size: 24px;
+  color: rgba(255, 255, 255, 0.6);
+  padding: 5px;
+  position: relative;
+  transition: .3s linear;
+  font-stretch: expanded;
+  font-weight: bold;
+}
+.category-wrap a:after {
+  content:"\f18e";
+  font-family: FontAwesome;
+  position: absolute;
+  right: 5px;
+  color: #ffffff;
+  transition: .2s linear;
+}
+.category-wrap a:hover {
+  background: #395b39;
+  color: white;
+}
+
